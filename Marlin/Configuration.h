@@ -27,7 +27,7 @@
 #define ANYCUBIC_KOSSEL_PLUS
 
 // Anycubic Probe version 1 or 2 or 3 see README.md; 0 for no probe
-#define ANYCUBIC_PROBE_VERSION 3
+#define ANYCUBIC_PROBE_VERSION 0
 
 // Heated Bed:
 // 0 ... no heated bed
@@ -609,7 +609,7 @@
   #endif
 
   // height from z=0 to home position
-  #define DELTA_HEIGHT 292.1 // get this value from auto calibrate
+  #define DELTA_HEIGHT 293 // get this value from auto calibrate
 
   #define DELTA_ENDSTOP_ADJ { 0.0, 0.0, 0.0 } // get these from auto calibrate
 
